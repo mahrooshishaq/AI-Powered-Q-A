@@ -30,48 +30,60 @@ Your **OpenAI API key** is stored securely in a `.env` file — just start the a
 ```bash
 git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
- 2️⃣ Create .env File
-In the project root, create a file named .env and add:
+```
 
-bash
-Copy code
+### 2️⃣ Create .env File
+In the project root, create a file named `.env` and add:
+
+```bash
 OPENAI_API_KEY=your_api_key_here
-3️⃣ Create Virtual Environment & Install Dependencies
-MacOS / Linux
-bash
-Copy code
+```
+
+### 3️⃣ Create Virtual Environment & Install Dependencies
+
+**MacOS / Linux**
+```bash
 python3 -m venv venv
 source venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
-Windows
-bash
-Copy code
+```
+
+**Windows**
+```bash
 python -m venv venv
 venv\Scripts\activate
 pip install --upgrade pip
 pip install -r requirements.txt
-4️⃣ Run the App
-MacOS / Linux
-bash
-Copy code
-streamlit run app.py
-Windows
-bash
-Copy code
-streamlit run app.py
-5️⃣ Open in Browser
-After running the above command, you’ll see something like:
+```
 
-nginx
-Copy code
+### 4️⃣ Run the App
+
+**MacOS / Linux**
+```bash
+streamlit run app.py
+```
+
+**Windows**
+```bash
+streamlit run app.py
+```
+
+### 5️⃣ Open in Browser
+After running the above command, you'll see something like:
+
+```
 Local URL: http://localhost:8501
+```
+
 Open it in your browser and start chatting.
 
-📷 Working Model Screenshots
+---
+
+## 📷 Working Model Screenshots
 Paste screenshots here using this format:
 
-markdown
-Copy code
-![Screenshot 1](Desktop/screenshots/screenshot1.png)
-![Screenshot 2](Desktop/screenshots/screenshot2.png)
+```markdown
+![Screenshot 1](Desktop/screenshots/Screenshot1)
+![Screenshot 2](Desktop/screenshots/Screenshot2)
+```
