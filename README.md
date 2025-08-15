@@ -80,9 +80,9 @@ Open it in your browser and start chatting.
 
 ---
 
-## 📷 Working Model Screenshots
+## 📸 Working Model Screenshots
 
-```markdown
 ![Screenshot 1](Screenshot1.png)
 ![Screenshot 2](Screenshot2.png)
+
 ```
