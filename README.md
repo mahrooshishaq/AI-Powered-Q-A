@@ -28,8 +28,8 @@ Your **OpenAI API key** is stored securely in a `.env` file — just start the a
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/mahrooshishaq/AI-Powered-Q-A.git
+cd AI-Powered-Q-A
 ```
 
 ### 2️⃣ Create .env File
@@ -81,9 +81,8 @@ Open it in your browser and start chatting.
 ---
 
 ## 📷 Working Model Screenshots
-Paste screenshots here using this format:
 
 ```markdown
-![Screenshot 1](Desktop/screenshots/Screenshot1)
-![Screenshot 2](Desktop/screenshots/Screenshot2)
+![Screenshot 1](Screenshot1.png)
+![Screenshot 2](Screenshot2.png)
 ```
